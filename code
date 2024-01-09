@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #ffffff;
+    }
+    
+    li {
+      float: left;
+      border-right:1px solid #bbb;
+    }
+    
+    li:last-child {
+      border-right: none;
+    }
+    
+    li a  {
+      display: block;
+      color: rgb(17, 16, 16);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #5e5b5b;
+    }
+    
+    .active {
+      background-color: #babfbd;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <ul>
+      <li><a class="file:///Users/shahadahmad/Downloads/html/index.html" href="#home">Home</a></li>
+      <li><a href="#https://earth.google.com/web/@0,-0.27,0a,22251752.77375655d,35y,0h,0t,0r">Explore Earth</a></li>
+      <li><a href="https://earth3dmap.com">Earth 3D Map</a></li>
+      <li style="float:right"><a href="https://www.earth.ac.cr/en/about-earth/earth-facts/mantengase-en-contacto-con-earth">Contact</a></li>
+    </ul>
+    
+      
+      
+  <title>Our Earth | Our Planet | Using HTML |</title>
+  <meta
+ 
+charset="utf-8" />
+
+  
+<meta
+ 
+http-equiv="Content-type"
+ 
+content="text/html; charset=utf-8" />
+
+  
+<meta
+ 
+name="viewport"
+ 
+content="width=device-width, initial-scale=1" />
+
+  
+<link
+ 
+rel="stylesheet"
+ 
+type="text/css"
+ 
+href="css/style.css">
+</head>
+
+<body>
+  <style>
+    body {
+      font-family: roboto;
+      background: url(space.jpg);
+      background-position: center;
+      background-size: cover;
+      color: rgb(9, 13, 15);
+      text-align: justify;
+      line-height: 1.5;
+    }
+
+    div {
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    p {
+      margin-left: 20px;
+      margin-right: 20px;
+      color:white;
+    }
+
+    h1 {
+        
+  text-align: center;
+  color: rgb(221, 226, 234);
+      font-size: 55px;
+      margin-left: 20px;
+    }
+
+    img {
+      margin-left: 40px;
+    }
+
+    li {
+      padding: 5px;
+      margin-right: 20px;
+    }
+
+    h3 {
+     
+      text-align: center;
+      font-weight: bold;
+      color: rgb(214, 228, 232);
+      font-style: italic;
+      padding: 10px;
+    }
+  </style>
+
+  <div>
+    <h1  text-align: center;>Earth - Our Planet</h1>
+
+    <p color; white;>Earth is the third planet from the Sun and the only astronomical object known to harbor life. 
+        According to radiometric dating estimation and other evidence, 
+        Earth formed over 4.5 billion years ago. Earth's gravity interacts with other objects in space,
+         especially the Sun and the Moon, which is Earth's only natural satellite.
+          Earth orbits around the Sun in 365.256 solar days, a period known as an Earth sidereal year.
+           During this time, Earth rotates about its axis 366.256 times, 
+           that is, a sidereal year has 366.256 sidereal days. 70% of the Earth’s surface is covered in water.
+            When astronauts first went into the space,
+             they looked back at the Earth with human eyes for the first time, 
+            and called our home the Blue Planet.</p>
+
+    <img src="/Users/shahadahmad/Downloads/html/earth.png">
+
+    <hr>
+
+    <h3>Earth Planet Profile</h3>
+    <div style="text-align: center;"> 
+    <table>
+        <caption>Key Characteristics of Earth</caption>
+        <thead>
+          <tr>
+            <th>Characteristic</th>
+            <th>Value</th>
+            <th>Image</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Equatorial Diameter</td>
+            <td>12,756 km</td>
+            <td><img width="300" height="200" src="/Users/shahadahmad/Downloads/html/size_eg1.jpg" alt="Earth's diameter"></td>
+          </tr>
+          <tr>
+            <td>Polar Diameter</td>
+            <td>12,714 km</td>
+            <td><img width="300" height="200" src="/Users/shahadahmad/Downloads/html/main-qimg-b5b27beb4585476de7f2e02ac79f1d5f.webp" alt="Earth's poles"></td>
+          </tr>
+          <tr>
+            <td>Mass</td>
+            <td>5.97 × 10^24 kg</td>
+            <td><img width="300" height="200" src="/Users/shahadahmad/Downloads/html/HHLcN.png" alt="Earth's mass"></td>
+          </tr>
+          <tr>
+            <td>Moons</td>
+            <td>1 (The Moon)</td>
+            <td><img width="300" height="200" src="/Users/shahadahmad/Downloads/html/ujuHjEozGSpzcQaPVWKfH3.jpg" alt="Earth and its moon"></td>
+          </tr>
+          <tr>
+            <td>Orbit Distance</td>
+            <td>149,598,262 km (1 AU)</td>
+            <td><img width="300" height="200" src="/Users/shahadahmad/Downloads/html/AWA_Diagram_1JPG.jpg" alt="Earth's orbit"></td>
+          </tr>
+          <tr>
+            <td>Orbit Period</td>
+            <td>365.24 days</td>
+            <td><img width="300" height="200" src="/Users/shahadahmad/Downloads/html/North_season.jpg" alt="orbit period"></td>
+          </tr>
+          <tr>
+            <td>Surface Temperature</td>
+            <td>-88 to 58°C</td>
+            <td><img width="300" height="200" src="/Users/shahadahmad/Downloads/html/8257307080_3da80896eb_z.jpg" alt="Earth's temperature range"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+    
+<hr>
+
+
+
+    
+
+
+    
+<title>Earth: Interesting Facts</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 1px solid #ddd;
+            background-color: #ffffffe3;
+            width: 100%;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        tr:hover {
+            background-color: #eee;
+        }
+    </style>
+</head>
+
+    <h1>Interesting Facts about Earth</h1>
+    <table>
+        <caption>Did you know these cool things about our home planet?</caption>
+        <thead>
+            <tr>
+                <th>Fact</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Earth's Rotation</td>
+                <td>The Earth's rotation is gradually slowing down.</td>
+            </tr>
+            <tr>
+                <td> Previous Model</td>
+                <td>Early civilizations believed Earth was the center of the universe.</td>
+            </tr>
+            <tr>
+                <td> Magnetic Field</td>
+                <td>Earth has a powerful magnetic field that protects it from harmful radiation.</td>
+            </tr>
+            <tr>
+                <td> One Moon</td>
+                <td>There is only one natural satellite of the planet Earth, the Moon.</td>
+            </tr>
+            <tr>
+                <td>🪐 Unique Name</td>
+                <td>Earth is the only planet not named after a god.</td>
+            </tr>
+            <tr>
+                <td> Densest Planet</td>
+                <td>The Earth is the densest planet in the Solar System.</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+
+
+   
+
+
+    <ul>
+         <a color: gray;   href="https://www.esa.int/Applications/Observing_the_Earth/10_remarkable_Earth_facts"
+         target="_blank">click here for more knwoldge! </a>
+    </ul>
+        </body>
+        </html>
